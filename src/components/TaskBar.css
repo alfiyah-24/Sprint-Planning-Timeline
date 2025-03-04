@@ -1,0 +1,10 @@
+.task-bar {
+    position: absolute;
+    height: 30px;
+    background: rgb(149, 196, 246);
+    color: white;
+    display: flex;
+    align-items: center;
+    cursor: grab;
+  }
+  

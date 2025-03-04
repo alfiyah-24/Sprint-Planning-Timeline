@@ -1,0 +1,56 @@
+.sprint-container {
+    width: 300px;
+    background: hsl(0, 0%, 98%);
+    padding: 10px;
+  }
+  
+  .sprint {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    background: #ffffff;
+  }
+  .sprint-list-header {
+    font-weight: bold;
+    padding: 10px;
+    background: #dfe1e6; 
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  
+  
+  .epics-list {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+  }
+  
+  .epic {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    font-size: 13px;
+  }
+  
+  .checkbox {
+    margin-right: 5px;
+  }
+  
+  .epic-name {
+    flex: 1;
+  }
+  
+  .new-epic {
+    display: flex;
+    gap: 5px;
+    margin-top: 5px;
+  }
+  
+  .create-epic {
+    margin-top: 10px;
+    width: 100%;
+    background: #0052cc;
+    color: white;
+  }
+  

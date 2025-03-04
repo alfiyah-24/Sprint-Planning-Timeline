@@ -1,0 +1,31 @@
+.modal-content {
+   
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .epic-info {
+    margin: 10px 0;
+    padding: 10px;
+    background: #f4f4f4;
+    border-radius: 5px;
+  }
+  
+  .epic-name {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .dates-display {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .date-pickers {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 15px 0;
+  }
+  
