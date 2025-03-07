@@ -1,0 +1,9 @@
+.header-row {
+    display: flex;
+    width: 100%;
+    background: #ffffff;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+}
+
+

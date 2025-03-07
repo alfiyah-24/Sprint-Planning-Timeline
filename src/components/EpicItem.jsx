@@ -32,7 +32,7 @@ const EpicItem = ({ epic }) => {
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-     <div className="epic-item">
+     <div className="epic-name">
       {epic} 
     </div>
 

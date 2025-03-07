@@ -1,0 +1,40 @@
+.month-header {
+    display: flex;
+    padding: 10px;
+    font-weight: bold;
+   
+    width: 100%; 
+    justify-content: space-between;
+}
+
+.month-label {
+    text-align: center;
+    flex-grow: 1;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:10px;
+}
+
+/* Date Header */
+.date-header {
+      
+    padding: 5px;
+    width: 100%;
+    
+}
+
+.date-box {
+    width: fill;
+    text-align: center;
+    padding: 0.5px;
+    
+}
+
+.date-box.active {
+    border-bottom: 2px solid blue;
+    font-weight: bold;
+}
+
+

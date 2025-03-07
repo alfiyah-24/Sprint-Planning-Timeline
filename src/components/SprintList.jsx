@@ -1,6 +1,9 @@
 import React, { useState, useRef } from "react"; 
 import { Button, TextField } from "@fluentui/react";
 import EpicItem from "./EpicItem";
+import "./SprintList.css";
+
+
 
 const SprintList = () => {
   const [epics, setEpics] = useState([]); 
@@ -18,9 +21,7 @@ const SprintList = () => {
 
   return (
     <div className="sprint-container">
-      <div className="sprint-list-header">
-        <strong>Sprints</strong>
-      </div>
+      
 
       {/* Epics List */}
       <div className="epics-list">

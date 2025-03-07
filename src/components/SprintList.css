@@ -1,20 +1,15 @@
 .sprint-container {
     width: 300px;
     background: hsl(0, 0%, 98%);
-    padding: 10px;
+    padding: 2px;
+    flex-shrink: 0;
+    border-right: black;
   }
   
   .sprint {
-    margin-bottom: 10px;
-    border-bottom: 1px solid #ddd;
+    margin-bottom: 2px;
+    border-bottom: 1px solid #000000;
     background: #ffffff;
-  }
-  .sprint-list-header {
-    font-weight: bold;
-    padding: 10px;
-    background: #dfe1e6; 
-    border-bottom: 1px solid #ccc;
-    text-align: left;
   }
   
   
@@ -22,7 +17,7 @@
   .epics-list {
     display: flex;
     flex-direction: column;
-    padding-left: 15px;
+   padding-bottom: 0.5px;
   }
   
   .epic {
@@ -34,7 +29,7 @@
   }
   
   .checkbox {
-    margin-right: 5px;
+    margin-right: 2px;
   }
   
   .epic-name {
@@ -50,7 +45,7 @@
   .create-epic {
     margin-top: 10px;
     width: 100%;
-    background: #0052cc;
-    color: white;
+    color: rgb(0, 0, 0);
+   
   }
   

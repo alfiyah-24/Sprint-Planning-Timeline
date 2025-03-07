@@ -1,10 +1,9 @@
 import React from "react";
-import "./WeeklyView.css";
-import TaskBar from "./TaskBar";
+import "./MonthCalc.css";
+
 import { useState } from "react";
 
-
-const WeeklyView = () => {
+const MonthCalc = () => {
   const today = new Date();
   const currentDate = today.getDate();
 
@@ -29,8 +28,8 @@ const WeeklyView = () => {
   const [task, setTask] = useState({ startDay: 5, duration: 5 });
 
   return (
-    <div className="timeline-grid-container">
-      {/*
+    <div >
+      
       <div className="month-header">
         {Object.keys(groupedByMonth).map((month, index) => (
           <div
@@ -53,21 +52,9 @@ const WeeklyView = () => {
             {date.getDate()}
           </div>
         ))}
-      </div>
-      */}
-      
-  
-      <div className="grid-body">
-        {days.map(({ date, isSunday }) => (
-          <div
-            key={date.getTime()}
-            className={`grid-column ${isSunday ? "sunday" : ""}`}
-          ></div>
-        ))}
-        <TaskBar task={task} setTask={setTask} days={days} />
-      </div>
+      </div>     
     </div>
   );
 };
 
-export default WeeklyView;
+export default MonthCalc;
